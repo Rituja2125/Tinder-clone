@@ -2,7 +2,7 @@
 
 A beautifully crafted front-end UI clone inspired by popular dating apps like **Tinder** and **Bumble**. This project is built using **HTML**, **CSS**, and **Bootstrap** to ensure responsiveness and modern design aesthetics.
 
----
+--- visit the site [click] https://rituja2125.github.io/Tinder-clone/
 
 ## 🚀 Features
 
