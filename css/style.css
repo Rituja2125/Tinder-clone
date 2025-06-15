@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-around;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.navbar-brand {
+  font-size: 40px;
+}
+
+.Navbar .navbar {
+  background-color: #EBE5C2;
+}
+
+.dropdown-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.dropdown-menu > * {
+  background-color: #FCEFCB;
+}
+
+.background {
+  background-image: url(../images/green.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  font-family: 'Dela Gothic One', sans-serif !important;
+  font-size: 2rem;
+}
+
+.text {
+  font-family: 'Bebas Neue', sans-serif;;
+  font-weight: bolder;
+  color: #fff500;
+  font-size: 6rem !important;
+}
+
+.green {
+  position: relative;
+}
+
+.btn {
+  background-color: #E4E0E1 !important;
+}
+
+.down, .row.featurette {
+  background: #F3C623 !important;
+}
+
+.img-fluid {
+  border-radius: 2rem;
+}
+
+.rectangle {
+  border-radius: 2rem;
+  padding-bottom: 1rem;
+}
+
+.fw-normal {
+  font-family: "Oswald, Kalapi Gajjar, Cyreal";
+}
+
+.featurette {
+  justify-content: flex-end;
+  align-content: space-around;
+  align-items: center;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-block-start: .3em;
+}
+
+.custome {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 6rem;
+}
+
+.lead {
+  font-weight: bold;
+  color: black;
+}
+
+.btn-light {
+  background-color: black !important;
+  color: #E4E0E1 !important;
+}
+
+.best {
+  padding-top: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.date {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bolder;
+  font-size: 6rem;
+  color: black !important;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.footer {
+  background-color: #EBE5C2;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .custome {
+    font-size: 4rem;
+  }
+
+  .date {
+    font-size: 4rem;
+  }
+
+  .featurette {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .best {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbar {
+  background-color: #EBE5C2;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: 'Bebas Neue', sans-serif; /* Attractive font */
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: 18px; /* Set a larger font size for navbar items */
+  margin: 0 20px; /* Added space between nav items */
+}
+
+.nav-link {
+  font-family: 'Bebas Neue', sans-serif; /* Reverted to previous font */
+  font-size: 18px; /* Set a larger font size for better visibility */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: #ff4c68; /* Change color on hover */
+}
+
+.dropdown-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.dropdown-menu > * {
+  background-color: #FCEFCB;
+}
+
+.head {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 2.5rem; /* Increased icon size */
+}
+
+.background {
+  background-image: url(../images/green.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .nav-item {
+    margin: 10px 0; /* Adjust margin for mobile view */
+  }
+
+  .img-fluid {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .featurette {
+    flex-direction: column; /* Stack featurette items vertically */
+    align-items: center; /* Center align featurette items */
+  }
+
+  .best {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+
+  .btn-apple svg,
+  .btn-android svg {
+    transition: transform 0.3s ease;
+  }
+
+  .btn-apple:hover svg,
+  .btn-android:hover svg {
+    animation: bounce 0.5s ease;
+  }
+
+  .download{
+  display: flex;
+  justify-content: center;
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
